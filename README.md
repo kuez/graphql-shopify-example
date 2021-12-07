@@ -1,1 +1,1 @@
-# graphqll-shopify-example
+# graphql-shopify-example

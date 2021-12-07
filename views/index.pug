@@ -1,0 +1,15 @@
+doctype html
+html(lang='es', data-framework='javascript')
+  head
+    meta(charset='utf-8')
+    title Ejemplo de consulta usando Graphql
+  body
+    .App
+      header.App__header
+        .App__title
+          h2=" Ejemplo de consulta usando Graphql"
+      .Product-wrapper
+        each product in products
+          .Product
+            img(src=product.images[0].src,alt=product.title style='width:400px; height:400px;')
+            h5.Product__title=product.title
